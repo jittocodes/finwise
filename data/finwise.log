@@ -1,0 +1,84 @@
+2026-03-17 18:57:45.208 | INFO     | __main__:main:111 - Starting FinWise UI on port 7860...
+2026-03-17 18:57:58.935 | INFO     | market.market_rag:refresh_market_rag:34 - Refreshing comprehensive market RAG...
+2026-03-17 18:57:58.935 | INFO     | market.fetcher:fetch_market_overview:193 - Fetching comprehensive market overview...
+2026-03-17 18:57:58.939 | INFO     | market.fetcher:fetch_all_stocks:141 - Fetching 60 stocks...
+2026-03-17 18:58:03.174 | INFO     | market.fetcher:fetch_all_stocks:148 -   10/60 fetched...
+2026-03-17 18:58:10.572 | INFO     | market.fetcher:fetch_all_stocks:148 -   20/60 fetched...
+2026-03-17 18:58:18.355 | INFO     | market.fetcher:fetch_all_stocks:148 -   30/60 fetched...
+2026-03-17 18:58:27.029 | INFO     | etl.investment_pipeline:run_investment_pipeline:143 - Starting investment ETL pipeline for: /home/jittolinux/Documents/finwise/data/uploads/portfolio.csv
+2026-03-17 18:58:27.033 | INFO     | etl.investment_pipeline:run_investment_pipeline:152 - Loaded 10 investment rows
+2026-03-17 18:58:27.674 | INFO     | market.fetcher:fetch_all_stocks:148 -   40/60 fetched...
+2026-03-17 18:58:28.284 | INFO     | rag.store:get_embeddings:20 - Loading embedding model: all-MiniLM-L6-v2
+2026-03-17 18:58:32.724 | INFO     | etl.investment_pipeline:_flush:136 - Flushed 10 investments to ChromaDB
+2026-03-17 18:58:32.824 | SUCCESS  | etl.investment_pipeline:run_investment_pipeline:172 - Investment ETL pipeline complete – 10 rows processed
+2026-03-17 18:58:32.914 | INFO     | etl.bank_pipeline:run_bank_pipeline:208 - Starting bank ETL pipeline for: /home/jittolinux/Documents/finwise/data/uploads/bank_stmt.csv
+2026-03-17 18:58:32.924 | INFO     | etl.bank_pipeline:run_bank_pipeline:210 - Loaded 971 raw rows
+2026-03-17 18:58:33.363 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 18:58:33.646 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 18:58:33.967 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 18:58:34.115 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 18:58:34.255 | INFO     | market.fetcher:fetch_all_stocks:148 -   50/60 fetched...
+2026-03-17 18:58:34.429 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 18:58:34.583 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 18:58:34.920 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 18:58:35.061 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 18:58:35.302 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 86 bank transactions to ChromaDB
+2026-03-17 18:58:35.380 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 85 bank transactions to ChromaDB
+2026-03-17 18:58:35.447 | SUCCESS  | etl.bank_pipeline:run_bank_pipeline:229 - Bank ETL pipeline complete – 971 rows processed
+2026-03-17 18:58:41.219 | INFO     | market.fetcher:fetch_all_stocks:148 -   60/60 fetched...
+2026-03-17 18:58:41.720 | SUCCESS  | market.fetcher:fetch_all_stocks:150 - Fetched 58/60 stocks
+2026-03-17 18:58:56.814 | SUCCESS  | market.market_rag:refresh_market_rag:44 - Indexed 58 stocks into RAG
+2026-03-17 18:58:56.917 | INFO     | market.market_rag:refresh_market_rag:34 - Refreshing comprehensive market RAG...
+2026-03-17 18:58:56.918 | INFO     | market.fetcher:fetch_market_overview:193 - Fetching comprehensive market overview...
+2026-03-17 18:58:56.918 | INFO     | market.fetcher:fetch_all_stocks:141 - Fetching 60 stocks...
+2026-03-17 18:59:00.850 | INFO     | market.fetcher:fetch_all_stocks:148 -   10/60 fetched...
+2026-03-17 18:59:05.167 | INFO     | market.fetcher:fetch_all_stocks:148 -   20/60 fetched...
+2026-03-17 18:59:08.799 | INFO     | market.fetcher:fetch_all_stocks:148 -   30/60 fetched...
+2026-03-17 18:59:13.494 | INFO     | market.fetcher:fetch_all_stocks:148 -   40/60 fetched...
+2026-03-17 18:59:17.083 | INFO     | market.fetcher:fetch_all_stocks:148 -   50/60 fetched...
+2026-03-17 18:59:21.839 | INFO     | market.fetcher:fetch_all_stocks:148 -   60/60 fetched...
+2026-03-17 18:59:22.339 | SUCCESS  | market.fetcher:fetch_all_stocks:150 - Fetched 58/60 stocks
+2026-03-17 18:59:32.498 | SUCCESS  | market.market_rag:refresh_market_rag:44 - Indexed 58 stocks into RAG
+2026-03-17 18:59:55.675 | INFO     | etl.bank_pipeline:run_bank_pipeline:208 - Starting bank ETL pipeline for: /home/jittolinux/Documents/finwise/data/uploads/bank_stmt.csv
+2026-03-17 18:59:55.686 | INFO     | etl.bank_pipeline:run_bank_pipeline:210 - Loaded 971 raw rows
+2026-03-17 18:59:56.161 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 18:59:56.460 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 18:59:56.712 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 18:59:56.872 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 18:59:57.127 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 18:59:57.287 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 18:59:57.562 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 18:59:57.710 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 18:59:57.917 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 86 bank transactions to ChromaDB
+2026-03-17 18:59:58.016 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 85 bank transactions to ChromaDB
+2026-03-17 18:59:58.029 | SUCCESS  | etl.bank_pipeline:run_bank_pipeline:229 - Bank ETL pipeline complete – 971 rows processed
+2026-03-17 18:59:58.029 | INFO     | etl.investment_pipeline:run_investment_pipeline:143 - Starting investment ETL pipeline for: /home/jittolinux/Documents/finwise/data/uploads/portfolio.csv
+2026-03-17 18:59:58.031 | INFO     | etl.investment_pipeline:run_investment_pipeline:152 - Loaded 10 investment rows
+2026-03-17 18:59:58.147 | INFO     | etl.investment_pipeline:_flush:136 - Flushed 10 investments to ChromaDB
+2026-03-17 18:59:58.161 | SUCCESS  | etl.investment_pipeline:run_investment_pipeline:172 - Investment ETL pipeline complete – 10 rows processed
+2026-03-17 18:59:58.162 | INFO     | advisor.advisor:prepare_context:73 - Preparing RAG context for advisor...
+2026-03-17 18:59:58.174 | SUCCESS  | advisor.advisor:prepare_context:87 - Context prepared successfully
+2026-03-17 18:59:58.174 | INFO     | advisor.advisor:generate_advice:99 - Generating advice for question: Give me a comprehensive investment plan. Analyse every singl...
+2026-03-17 18:59:58.174 | INFO     | advisor.chains:get_llm:19 - Using LLM provider: openai | model: gpt-4o
+2026-03-17 19:03:12.162 | INFO     | etl.bank_pipeline:run_bank_pipeline:208 - Starting bank ETL pipeline for: /home/jittolinux/Documents/finwise/data/uploads/bank_stmt.csv
+2026-03-17 19:03:12.171 | INFO     | etl.bank_pipeline:run_bank_pipeline:210 - Loaded 971 raw rows
+2026-03-17 19:03:12.733 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 19:03:13.111 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 19:03:13.153 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 19:03:13.531 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 19:03:13.623 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 19:03:14.140 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 19:03:14.307 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 19:03:14.346 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 100 bank transactions to ChromaDB
+2026-03-17 19:03:14.434 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 43 bank transactions to ChromaDB
+2026-03-17 19:03:14.530 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 43 bank transactions to ChromaDB
+2026-03-17 19:03:14.619 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 42 bank transactions to ChromaDB
+2026-03-17 19:03:14.651 | INFO     | etl.bank_pipeline:_flush:176 - Flushed 43 bank transactions to ChromaDB
+2026-03-17 19:03:14.710 | SUCCESS  | etl.bank_pipeline:run_bank_pipeline:229 - Bank ETL pipeline complete – 971 rows processed
+2026-03-17 19:03:14.710 | INFO     | etl.investment_pipeline:run_investment_pipeline:143 - Starting investment ETL pipeline for: /home/jittolinux/Documents/finwise/data/uploads/portfolio.csv
+2026-03-17 19:03:14.712 | INFO     | etl.investment_pipeline:run_investment_pipeline:152 - Loaded 10 investment rows
+2026-03-17 19:03:14.828 | INFO     | etl.investment_pipeline:_flush:136 - Flushed 10 investments to ChromaDB
+2026-03-17 19:03:14.832 | SUCCESS  | etl.investment_pipeline:run_investment_pipeline:172 - Investment ETL pipeline complete – 10 rows processed
+2026-03-17 19:03:14.833 | INFO     | advisor.advisor:prepare_context:73 - Preparing RAG context for advisor...
+2026-03-17 19:03:14.836 | SUCCESS  | advisor.advisor:prepare_context:87 - Context prepared successfully
+2026-03-17 19:03:14.836 | INFO     | advisor.advisor:generate_advice:99 - Generating advice for question: Give me a comprehensive investment plan. Analyse every singl...
